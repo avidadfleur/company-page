@@ -1,0 +1,320 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem;
+}
+
+.image-container {
+    overflow: hidden;
+}
+  
+.image-container img {
+    max-width: 90%;
+}
+
+.button {
+    background-color: #87e56b;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #56da2e;
+}
+
+/* Header Section */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid pink;
+    z-index: 100;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+header .logo {
+    padding-left: 1.8rem;
+}
+
+header nav ul {
+    display: flex;
+    padding-right: 1.8rem;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+nav a {
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.05em;
+    color: #a622cc;
+}
+
+nav a:hover {
+    color: #cb6ce6;
+}
+
+/* Banner Section */
+
+#banner {
+    display: flex;
+    background-image: url("../images/zetong-li-K2br6eVgy2I-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 43.5rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#banner-content {
+    background-color: #cb6ce6;
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+#banner-content h1 {
+    font-size: 3.125rem;
+}
+
+#banner-content h2 {
+    font-size: 2.25rem;
+}
+
+#banner-content .cursive {
+    padding-top: .75rem;
+    font-family: "Damion", cursive;
+}
+
+#banner-content .striking {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: .75rem;
+}
+
+#banner-content .email {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#banner-content .button {
+    margin: 1.625rem 0 2rem 5.15rem;
+    padding: 1.25rem 1.25rem;
+    width: 50%;
+}
+
+#banner-content a {
+    color: white;
+}
+
+/* Mission Section */
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 5%;
+    background-color: #f3f3f3;
+}
+
+#mission-content {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+}
+
+#mission-content .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border: 0.25rem solid #87e56b;
+    padding: 4rem;
+    
+}
+
+#mission-content h1 {
+    padding: 1.15rem 1.60rem;
+    font-size: 3.125rem;
+}
+
+#mission-content h2 {
+    font-family: "Palatino", serif;
+    font-style: italic;
+    font-size: 2.25rem;
+}
+
+/* Trip Planner Section */
+
+#planner {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 5%;
+    height: 33.5rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+#planner-content {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-height: 25.5rem;
+    padding: 4rem;
+    margin: 0 auto;
+}
+
+#planner-content .container {
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+#planner-content .image-container {
+    margin-left: 10rem;
+}
+
+#planner-content .text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+
+#planner-content .header h1 {
+    padding: 1.15rem 5.60rem 1.15rem 5.60rem;
+    font-size: 1.825rem;
+    font-family: "Damion", cursive;
+    background-color: #e5cb6b;
+}
+
+#planner-content .button {
+    padding: 1.1rem;
+    margin-top: .85rem;
+    margin-left: 2.5rem;
+    width: 50%;
+}
+
+#planner-content a {
+    color: white;
+}
+
+/* Staff Section */
+
+#staff {
+    display: flex;
+    background-color: #cb6ce6;
+    color: white;
+
+}
+
+#staff-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+
+#staff-content h1 {
+    padding: 1.15rem 1.60rem;
+    font-size: 3.125rem;
+    font-family: "Damion", cursive;
+}
+
+#staff-content .staff-image-container {
+    display: flex;
+}
+
+#staff-content .text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#staff-content img {
+    display: flex;
+    max-width: 65%;
+    border: 0.25rem solid #e5cb6b;
+    margin-bottom: 0.55rem;
+    margin-right: 0.5rem;
+}
+
+#staff-content .side {
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 0.5rem;
+}
+
+/* Quotes Section */
+
+#quotes-section {
+    display: flex;
+    background-color: #f3f3f3;
+    justify-content: space-around;
+}
+  
+#quotes-section .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+  
+#quotes-section .quote {
+    padding-right: 1.875rem;
+    font-family: "Palatino", serif;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-style: italic;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #a622cc;
+    padding: 1.5rem 2rem;
+  }
+  
+#footer .content {
+    color: white;
+    display: flex;
+    font-size: .95rem;
+}
+  
+#footer .copyright {
+    flex-grow: 1;
+}
+
+
+
+
+
+
